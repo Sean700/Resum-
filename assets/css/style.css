@@ -9,6 +9,9 @@
 .bg-color-three-reasons {
     background-color: #fff;
 }
+.bg-color-contact {
+    background-color: #fff;
+}
 
 .bg-color-personal-info {
     background-color: #f8f9fa;
@@ -327,4 +330,47 @@ background: #846108;
 
 .history-items {
     margin: 30px;
+}
+
+/*--------------------------------Contact Form--------------------*/
+
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+/*
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}*/
+
+
+
+/*--------------------------------Media Queries--------------------*/
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 10px;
+    min-height: 240px;
+    margin-bottom: 0 auto;
+    max-width: 50%;
+    }
 }
